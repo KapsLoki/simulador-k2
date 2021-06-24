@@ -1,7 +1,6 @@
 # Desafio EQI - Simulador de Investimentos K
 
 Projeto sendo desenvolvido em ReactJS+Node.
-Banco de Dados: Firebase
 
 ## Briefing
 
