@@ -1,0 +1,141 @@
+main > div {
+    background-color:#fafafa;
+    box-shadow: 0px 0px 15px #0004;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+
+main  #title {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+
+}
+
+main  p {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+main .container-fluid {
+
+    margin-top: 20px;
+
+}
+
+main .img-fluid {
+
+    width: 50%;
+    margin: 10px;
+}
+
+main .btn-1 {
+
+    background-color: #603bbb;
+    width: 80%;
+    height: 20%;
+    font-size: medium;
+    color: white;
+}
+
+main .btn-2 {
+
+    background-color: green;
+    width: 80%;
+    height: 20%;
+    font-size: medium;
+    color: white;
+}
+
+main .card {
+   border-radius: 10px;
+   margin: 5px;
+   width: 200px;
+    
+}
+
+main .card-body {
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    padding: 10px;
+}
+
+
+
+main  #subtitulo{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #603bbb;
+    border: 2px black;
+
+}
+
+main .oqueecdi {
+    margin-top: 40px;
+}
+
+
+main .oqueecdi #titulo-cdi {
+    display: flex;
+    color: #603bbb;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main .oqueecdi #texto-cdi {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+main .poupanca {
+    margin-top: 20px;
+}
+
+main .poupanca #titulopoup {
+    font-family: "Nunito", sans-serif;
+    color: #603bbb;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+main .poupanca #textopoup {
+    margin-left: 5px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+}
+
+main .requisitos {
+    margin-top: 20px;
+}
+
+main .requisitos #tituloreq {
+    font-family: "Nunito", sans-serif;
+    color: #603bbb;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+main .requisitos #textoreq {
+    font-family: "Nunito", sans-serif;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+@media(max-width: 576px) {
+    main > div {
+        background-color:#fafafa;
+        border-radius: 10px;
+        height: 90%;
+        overflow-wrap: break-word;
+    }
+}

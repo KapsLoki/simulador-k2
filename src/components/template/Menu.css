@@ -1,0 +1,29 @@
+aside.menu-area {
+    box-shadow: 
+        2px 0 10px 0 rgba(192, 101, 235, 0.12),
+        2px 0 15px 0 rgba(182, 181, 241, 0.09);
+    margin: 100px 10px 60px 10px ;
+
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #603bbb;
+    padding: 15px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #a97ae6 0%, #000 100%);
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .menu {
+        display: hidden;
+
+    }
+
+}
